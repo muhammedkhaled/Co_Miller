@@ -1,4 +1,4 @@
-package com.example.comiller.ui.theme
+package com.example.comiller.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

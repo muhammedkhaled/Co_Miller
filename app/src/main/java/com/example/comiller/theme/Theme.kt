@@ -1,4 +1,4 @@
-package com.example.comiller.ui.theme
+package com.example.comiller.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

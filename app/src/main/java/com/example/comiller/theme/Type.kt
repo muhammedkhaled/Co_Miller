@@ -1,4 +1,4 @@
-package com.example.comiller.ui.theme
+package com.example.comiller.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

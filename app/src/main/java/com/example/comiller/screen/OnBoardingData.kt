@@ -1,7 +1,7 @@
-package com.example.comiller
+package com.example.comiller.screen
 
 import androidx.compose.ui.graphics.Color
-import com.example.comiller.ui.theme.ColorBlue
+import com.example.comiller.theme.ColorBlue
 
 data class OnBoardingData(
     val image: Int, val title: String,

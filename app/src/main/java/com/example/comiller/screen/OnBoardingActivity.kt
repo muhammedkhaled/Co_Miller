@@ -1,5 +1,6 @@
-package com.example.comiller
+package com.example.comiller.screen
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -18,13 +19,16 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.comiller.ui.theme.*
+import com.example.comiller.R
+import com.example.comiller.RegistrationActivity
+import com.example.comiller.theme.*
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.PagerState
@@ -32,7 +36,7 @@ import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-class MainActivity : ComponentActivity() {
+class OnBoardingActivity : ComponentActivity() {
     @OptIn(ExperimentalPagerApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,8 +59,8 @@ fun OnBoardingScreens() {
         items.add(
             OnBoardingData(
                 R.drawable.wheat_1,
-                "Lorem Ipsum",
-                "A variety of healthy foods made by the best chefs. Ingredients are easy to find. all delicious flavors can only be found at cookbunda",
+                "Unknown Wheat Program",
+                "By Entering unknown wheat data to obtain a match for the unknown wheat variety.",
                 backgroundColor = Color(0xFF0189C5),
                 mainColor = Color(0xFF00B5EA)
             )
@@ -65,8 +69,8 @@ fun OnBoardingScreens() {
         items.add(
             OnBoardingData(
                 R.drawable.wheat_2,
-                "Lorem Ipsum",
-                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+                "Milling Diagram Program",
+                "By Entering miller data to select the appropriate conditioning and milling diagram.",
                 backgroundColor = Color(0xFFE4AF19),
                 mainColor = ColorYellow
             )
@@ -75,8 +79,8 @@ fun OnBoardingScreens() {
         items.add(
             OnBoardingData(
                 R.drawable.wheat_3,
-                "Lorem Ipsum",
-                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+                "Appropriate Wheat program",
+                "by Entering specific data to find the appropriate wheat variety.",
                 backgroundColor = Color(0xFF96E172),
                 mainColor = ColorGreen
             )
@@ -106,6 +110,7 @@ fun OnBoardingPager(
     pagerState: PagerState,
     modifier: Modifier = Modifier
 ) {
+    val context = LocalContext.current
 
     Box(modifier = modifier) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
@@ -117,18 +122,14 @@ fun OnBoardingPager(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.Top
                 ) {
-
                     Image(
                         painter = painterResource(id = item[page].image),
                         contentDescription = item[page].title,
                         modifier = Modifier
                             .fillMaxWidth()
                     )
-
-
                 }
             }
-
         }
 
         Box(modifier = Modifier.align(Alignment.BottomCenter)) {
@@ -184,6 +185,12 @@ fun OnBoardingPager(
                             if (pagerState.currentPage != 2) {
                                 TextButton(onClick = {
                                     //skip
+                                    context.startActivity(
+                                        Intent(
+                                            context,
+                                            RegistrationActivity::class.java
+                                        )
+                                    )
                                 }) {
                                     Text(
                                         text = "Skip Now",
@@ -224,6 +231,12 @@ fun OnBoardingPager(
                                 Button(
                                     onClick = {
                                         //show home screen
+                                        context.startActivity(
+                                            Intent(
+                                                context,
+                                                RegistrationActivity::class.java
+                                            )
+                                        )
                                     },
                                     modifier = Modifier.fillMaxWidth(),
                                     colors = ButtonDefaults.buttonColors(

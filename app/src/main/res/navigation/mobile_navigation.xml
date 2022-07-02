@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_homeScreen">
+
+    <fragment
+        android:id="@+id/nav_prog1"
+        android:name="com.example.comiller.ui.prog1.Prog1Fragment"
+        android:label="@string/prog1"
+        tools:layout="@layout/fragment_prog1" >
+        <action
+            android:id="@+id/action_nav_prog1_to_prog1ResultFragment"
+            app:destination="@id/prog1ResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_prog2"
+        android:name="com.example.comiller.ui.prog2.Prog2Fragment"
+        android:label="@string/prog2"
+        tools:layout="@layout/fragment_prog2" >
+        <action
+            android:id="@+id/action_nav_prog2_to_prog1ResultFragment"
+            app:destination="@id/prog1ResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_prog3"
+        android:name="com.example.comiller.ui.prog3.Prog3Fragment"
+        android:label="@string/prog3"
+        tools:layout="@layout/fragment_prog3" >
+        <action
+            android:id="@+id/action_nav_prog3_to_prog1ResultFragment"
+            app:destination="@id/prog1ResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_homeScreen"
+        android:name="com.example.comiller.ui.home.HomeFragment"
+        android:label="@string/title_activity_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_homeScreen_to_nav_prog3"
+            app:destination="@id/nav_prog3" />
+        <action
+            android:id="@+id/action_nav_homeScreen_to_nav_prog2"
+            app:destination="@id/nav_prog2" />
+        <action
+            android:id="@+id/action_nav_homeScreen_to_nav_prog1"
+            app:destination="@id/nav_prog1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/prog1ResultFragment"
+        android:name="com.example.comiller.ui.Prog1ResultFragment"
+        android:label="Result Page"
+        tools:layout="@layout/fragment_result"/>
+</navigation>
