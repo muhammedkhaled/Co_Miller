@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/nav_header_home.xml",
+        "source": "com.example.comiller.app-main-73:/layout/nav_header_home.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/app_bar_home.xml",
+        "source": "com.example.comiller.app-main-73:/layout/app_bar_home.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/activity_registration.xml",
+        "source": "com.example.comiller.app-main-73:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/fragment_sign_up.xml",
+        "source": "com.example.comiller.app-main-73:/layout/fragment_sign_up.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/fragment_prog3.xml",
+        "source": "com.example.comiller.app-main-73:/layout/fragment_prog3.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/fragment_result.xml",
+        "source": "com.example.comiller.app-main-73:/layout/fragment_result.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/item.xml",
+        "source": "com.example.comiller.app-main-73:/layout/item.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/fragment_prog1.xml",
+        "source": "com.example.comiller.app-main-73:/layout/fragment_prog1.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/content_home.xml",
+        "source": "com.example.comiller.app-main-73:/layout/content_home.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/fragment_home.xml",
+        "source": "com.example.comiller.app-main-73:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/fragment_login.xml",
+        "source": "com.example.comiller.app-main-73:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/activity_home.xml",
+        "source": "com.example.comiller.app-main-73:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-70:/layout/fragment_prog2.xml",
+        "source": "com.example.comiller.app-main-73:/layout/fragment_prog2.xml"
+    }
+]

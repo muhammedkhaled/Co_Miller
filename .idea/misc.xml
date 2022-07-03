@@ -18,17 +18,19 @@
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.25" />
         <entry key="app/src/main/res/layout/app_bar_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_home.xml" value="0.2898550724637681" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.23697916666666666" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_prog1.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_prog1.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_prog1_result.xml" value="0.35052083333333334" />
         <entry key="app/src/main/res/layout/fragment_prog2.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_prog2_result.xml" value="0.14270833333333333" />
-        <entry key="app/src/main/res/layout/fragment_prog3.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/layout/fragment_prog3.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_prog3_result.xml" value="0.15833333333333333" />
         <entry key="app/src/main/res/layout/fragment_result.xml" value="0.35052083333333334" />
         <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.15833333333333333" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.35052083333333334" />
         <entry key="app/src/main/res/menu/home.xml" value="0.16354166666666667" />
       </map>

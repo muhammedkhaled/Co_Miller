@@ -2,58 +2,50 @@ package com.example.comiller.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import android.widget.Toast
 import com.example.comiller.R
+import com.example.comiller.data.network.response.Data
+import com.example.comiller.databinding.FragmentResultBinding
+import com.example.comiller.viewModels.HomeViewModel
+
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.decodeFromString
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [Prog1ResultFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
-class Prog1ResultFragment : Fragment() {
+class ResultFragment : Fragment(R.layout.fragment_result) {
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
-    private var param2: String? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    private lateinit var binding: FragmentResultBinding
+    private lateinit var viewModel: HomeViewModel
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding = FragmentResultBinding.bind(view)
+
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
         }
-    }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_result, container, false)
+        val obj = Json.decodeFromString<List<Data>>(param1!!)
+        Toast.makeText(requireContext(), "${obj[15]}", Toast.LENGTH_SHORT).show()
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment Prog1ResultFragment.
-         */
-        // TODO: Rename and change types and number of parameters
+        const val TAG = "CreateNewAccBtmFragment"
+
         @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            Prog1ResultFragment().apply {
+        fun newInstance(param1: String) =
+            ResultFragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
                 }
             }
     }
