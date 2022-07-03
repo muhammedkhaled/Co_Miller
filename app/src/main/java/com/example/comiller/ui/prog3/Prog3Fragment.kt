@@ -10,40 +10,21 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.comiller.R
 import com.example.comiller.databinding.FragmentProg3Binding
+import com.example.comiller.viewModels.HomeViewModel
 
-class Prog3Fragment : Fragment() {
+class Prog3Fragment : Fragment(R.layout.fragment_prog3) {
 
-    private var _binding: FragmentProg3Binding? = null
+    private lateinit var binding: FragmentProg3Binding
+    private lateinit var viewModel: HomeViewModel
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        val prog3ViewModel =
-            ViewModelProvider(this).get(Prog3ViewModel::class.java)
-
-        _binding = FragmentProg3Binding.inflate(inflater, container, false)
-        val root: View = binding.root
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding = FragmentProg3Binding.bind(view)
 
         binding.prog3SubmetBtn.setOnClickListener{
             findNavController().navigate(
                 R.id.prog1ResultFragment
             )
         }
-//        val textView: TextView = binding.textSlideshow
-//        prog3ViewModel.text.observe(viewLifecycleOwner) {
-//            textView.text = it
-//        }
-        return root
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
     }
 }

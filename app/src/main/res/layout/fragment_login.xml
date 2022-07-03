@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".LoginFragment">
+    tools:context=".ui.LoginFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -125,21 +125,21 @@
             app:layout_constraintGuide_percent="0.77" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/loginPhoneNum_til"
+            android:id="@+id/loginEmail_til"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:hint="@string/mobile_number"
+            android:hint="@string/email"
             style="@style/TextInputLayout.EditText.FilledBox"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline1"
             app:layout_constraintTop_toBottomOf="@id/sign_In_tv">
 
             <EditText
-                android:id="@+id/loginPhoneNum_et"
+                android:id="@+id/loginEmail_et"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="phone"
+                android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:paddingStart="8dp"
                 android:paddingEnd="8dp"
@@ -159,9 +159,10 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="@+id/guideline1"
-            app:layout_constraintTop_toBottomOf="@+id/loginPhoneNum_til"
+            app:layout_constraintTop_toBottomOf="@+id/loginEmail_til"
             app:layout_constraintVertical_chainStyle="spread_inside"
             app:passwordToggleTint="@color/gray"
+            app:passwordToggleEnabled="true"
             style="@style/TextInputLayout.EditText.FilledBox">
 
             <EditText

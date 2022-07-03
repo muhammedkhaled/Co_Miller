@@ -10,6 +10,7 @@
     <string name="conditions_of_registration">شروط التسجيل</string>
     <string name="do_you_have_an_account">هل لديك حساب ؟ سجل</string>
     <string name="new_registration">انشاء حساب جديد</string>
+    <string name="register">انشاء حساب</string>
     <string name="name">الأسم</string>
     <string name="phone">رقم الهاتف</string>
     <string name="email">البريد الاكتروني</string>

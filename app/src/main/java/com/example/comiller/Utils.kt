@@ -5,7 +5,7 @@ import android.content.*
 import android.view.View
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.example.comiller.responce.ErrorResponse
+import com.example.comiller.data.network.response.ErrorResponse
 import com.google.android.material.snackbar.Snackbar
 import net.aqua_waterfliter.jo.confirmation.data.network.ResultWrapper
 import java.text.SimpleDateFormat
@@ -58,23 +58,9 @@ fun Fragment.handleApiError(
             }
         }
 
-//        failure.errorCode == 401 -> {
-//            Toast.makeText(requireContext(), "session expired logging out... ", Toast.LENGTH_SHORT).show()
-//            when(this) {
-//                is HomeFragment ->{
-//                    logout()
-//                }
-//                is ClientDetailsFragment -> {
-//                    logout()
-//                }
-//                is EditAddressBtmFragment -> {
-//                    logout()
-//                }
-//                is CreateNewAccBtmFragment -> {
-//                    logout()
-//                }
-//            }
-//        }
+        failure.errorCode == 401 -> {
+            Toast.makeText(requireContext(), "Wrong email or password... ", Toast.LENGTH_SHORT).show()
+        }
 
         failure.errorCode == 411 -> {
             val error = failure.error as ErrorResponse

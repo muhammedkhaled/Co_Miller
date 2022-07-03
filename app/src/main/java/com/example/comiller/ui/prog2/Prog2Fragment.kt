@@ -9,26 +9,18 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.comiller.R
+import com.example.comiller.databinding.FragmentProg1Binding
 import com.example.comiller.databinding.FragmentProg2Binding
+import com.example.comiller.viewModels.HomeViewModel
 
-class Prog2Fragment : Fragment() {
+class Prog2Fragment : Fragment(R.layout.fragment_prog2) {
 
-    private var _binding: FragmentProg2Binding? = null
+    private lateinit var binding: FragmentProg2Binding
+    private lateinit var viewModel: HomeViewModel
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        val prog2ViewModel =
-            ViewModelProvider(this).get(Prog2ViewModel::class.java)
-
-        _binding = FragmentProg2Binding.inflate(inflater, container, false)
-        val root: View = binding.root
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding = FragmentProg2Binding.bind(view)
 
         binding.prog2SubmetBtn.setOnClickListener{
             findNavController().navigate(
@@ -36,15 +28,6 @@ class Prog2Fragment : Fragment() {
             )
         }
 
-//        val textView: TextView = binding.textGallery
-//        prog2ViewModel.text.observe(viewLifecycleOwner) {
-//            textView.text = it
-//        }
-        return root
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
 }

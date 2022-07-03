@@ -84,4 +84,6 @@ dependencies {
     // okHttp
     implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
 
+    // data store
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
 }
