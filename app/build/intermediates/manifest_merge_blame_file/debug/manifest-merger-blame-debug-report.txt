@@ -36,131 +36,130 @@
 22-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:15:9-54
 23        android:supportsRtl="true"
 23-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:16:9-35
-24        android:testOnly="true"
-25        android:theme="@style/Theme.CoMiller"
-25-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:17:9-46
-26        android:usesCleartextTraffic="true" >
-26-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:18:9-44
-27        <activity
-27-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:20:9-23:63
-28            android:name="com.example.comiller.ui.home.SettingsActivity"
-28-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:21:13-53
-29            android:exported="false"
-29-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:22:13-37
-30            android:label="@string/title_activity_settings" />
-30-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:23:13-60
-31        <activity
-31-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:24:9-28:65
-32            android:name="com.example.comiller.ui.home.HomeActivity"
-32-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:25:13-49
-33            android:exported="false"
-33-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:26:13-37
-34            android:label="@string/title_activity_home"
-34-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:27:13-56
-35            android:theme="@style/Theme.CoMiller.NoActionBar" />
-35-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:28:13-62
-36        <activity
-36-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:29:9-32:53
-37            android:name="com.example.comiller.ui.auth.RegistrationActivity"
-37-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:30:13-57
-38            android:exported="false"
-38-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:31:13-37
-39            android:theme="@style/Theme.CoMiller" />
-39-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:32:13-50
-40        <activity
-40-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:33:9-43:20
-41            android:name="com.example.comiller.ui.intro.OnBoardingActivity"
-41-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:34:13-56
-42            android:exported="true"
-42-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:35:13-36
-43            android:label="@string/app_name"
-43-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:36:13-45
-44            android:theme="@style/Theme.CoMiller" >
-44-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:37:13-50
-45            <intent-filter>
-45-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:38:13-42:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:39:17-69
-46-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:39:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:41:17-77
-48-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:41:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity
-51-->[androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/579be9ec63a7111fccfd4281c0d3a130/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:25:9-27:39
-52            android:name="androidx.compose.ui.tooling.PreviewActivity"
-52-->[androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/579be9ec63a7111fccfd4281c0d3a130/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:26:13-71
-53            android:exported="true" />
-53-->[androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/579be9ec63a7111fccfd4281c0d3a130/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:27:13-36
-54        <activity
-54-->[androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/18d581ff92e6f4e1376dc901c09d8635/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:25:9-27:39
-55            android:name="androidx.activity.ComponentActivity"
-55-->[androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/18d581ff92e6f4e1376dc901c09d8635/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:26:13-63
-56            android:exported="true" />
-56-->[androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/18d581ff92e6f4e1376dc901c09d8635/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:27:13-36
-57
-58        <uses-library
-58-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-59            android:name="androidx.window.extensions"
-59-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-60            android:required="false" />
-60-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-61        <uses-library
-61-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-62            android:name="androidx.window.sidecar"
-62-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-63            android:required="false" />
-63-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-64
-65        <provider
-65-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:26:9-34:20
-66            android:name="androidx.startup.InitializationProvider"
-66-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:27:13-67
-67            android:authorities="com.example.comiller.androidx-startup"
-67-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:28:13-68
-68            android:exported="false" >
-68-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:29:13-37
-69            <meta-data
-69-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:31:13-33:52
-70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-70-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:32:17-85
-71                android:value="androidx.startup" />
-71-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:33:17-49
-72            <meta-data
-72-->[androidx.emoji2:emoji2:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/234cf460b958804e1d716f4aaed3fec5/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-73-->[androidx.emoji2:emoji2:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/234cf460b958804e1d716f4aaed3fec5/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-74                android:value="androidx.startup" />
-74-->[androidx.emoji2:emoji2:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/234cf460b958804e1d716f4aaed3fec5/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-75            <meta-data
-75-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/eng.muhammad/.gradle/caches/transforms-3/163c4aa3992c237c27f66fb415e63254/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-76-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/eng.muhammad/.gradle/caches/transforms-3/163c4aa3992c237c27f66fb415e63254/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-77                android:value="androidx.startup" />
-77-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/eng.muhammad/.gradle/caches/transforms-3/163c4aa3992c237c27f66fb415e63254/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-78        </provider>
-79
-80        <receiver
-80-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:36:9-45:20
-81            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-81-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:37:13-76
-82            android:directBootAware="false"
-82-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:38:13-44
-83            android:enabled="true"
-83-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:39:13-35
-84            android:exported="true"
-84-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:40:13-36
-85            android:permission="android.permission.DUMP" >
-85-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:41:13-57
-86            <intent-filter>
-86-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:42:13-44:29
-87                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-87-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:43:17-91
-87-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:43:25-88
-88            </intent-filter>
-89        </receiver>
-90    </application>
-91
-92</manifest>
+24        android:theme="@style/Theme.CoMiller"
+24-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:17:9-46
+25        android:usesCleartextTraffic="true" >
+25-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:18:9-44
+26        <activity
+26-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:20:9-23:63
+27            android:name="com.example.comiller.ui.home.SettingsActivity"
+27-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:21:13-53
+28            android:exported="false"
+28-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:22:13-37
+29            android:label="@string/title_activity_settings" />
+29-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:23:13-60
+30        <activity
+30-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:24:9-28:65
+31            android:name="com.example.comiller.ui.home.HomeActivity"
+31-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:25:13-49
+32            android:exported="false"
+32-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:26:13-37
+33            android:label="@string/title_activity_home"
+33-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:27:13-56
+34            android:theme="@style/Theme.CoMiller.NoActionBar" />
+34-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:28:13-62
+35        <activity
+35-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:29:9-32:53
+36            android:name="com.example.comiller.ui.auth.RegistrationActivity"
+36-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:30:13-57
+37            android:exported="false"
+37-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:31:13-37
+38            android:theme="@style/Theme.CoMiller" />
+38-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:32:13-50
+39        <activity
+39-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:33:9-43:20
+40            android:name="com.example.comiller.ui.intro.OnBoardingActivity"
+40-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:34:13-56
+41            android:exported="true"
+41-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:35:13-36
+42            android:label="@string/app_name"
+42-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:36:13-45
+43            android:theme="@style/Theme.CoMiller" >
+43-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:37:13-50
+44            <intent-filter>
+44-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:38:13-42:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:39:17-69
+45-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:39:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:41:17-77
+47-->/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/AndroidManifest.xml:41:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->[androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/579be9ec63a7111fccfd4281c0d3a130/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:25:9-27:39
+51            android:name="androidx.compose.ui.tooling.PreviewActivity"
+51-->[androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/579be9ec63a7111fccfd4281c0d3a130/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:26:13-71
+52            android:exported="true" />
+52-->[androidx.compose.ui:ui-tooling:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/579be9ec63a7111fccfd4281c0d3a130/transformed/ui-tooling-1.1.0-beta01/AndroidManifest.xml:27:13-36
+53        <activity
+53-->[androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/18d581ff92e6f4e1376dc901c09d8635/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:25:9-27:39
+54            android:name="androidx.activity.ComponentActivity"
+54-->[androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/18d581ff92e6f4e1376dc901c09d8635/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:26:13-63
+55            android:exported="true" />
+55-->[androidx.compose.ui:ui-test-manifest:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/18d581ff92e6f4e1376dc901c09d8635/transformed/ui-test-manifest-1.1.0-beta01/AndroidManifest.xml:27:13-36
+56
+57        <uses-library
+57-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+58            android:name="androidx.window.extensions"
+58-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+59            android:required="false" />
+59-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+60        <uses-library
+60-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+61            android:name="androidx.window.sidecar"
+61-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+62            android:required="false" />
+62-->[androidx.window:window:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/e2ad5d1e62db0dda9a88e43610c5b228/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+63
+64        <provider
+64-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:26:9-34:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:27:13-67
+66            android:authorities="com.example.comiller.androidx-startup"
+66-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:28:13-68
+67            android:exported="false" >
+67-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:29:13-37
+68            <meta-data
+68-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+69-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:32:17-85
+70                android:value="androidx.startup" />
+70-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:33:17-49
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/234cf460b958804e1d716f4aaed3fec5/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/234cf460b958804e1d716f4aaed3fec5/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.0.0] /Users/eng.muhammad/.gradle/caches/transforms-3/234cf460b958804e1d716f4aaed3fec5/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/eng.muhammad/.gradle/caches/transforms-3/163c4aa3992c237c27f66fb415e63254/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/eng.muhammad/.gradle/caches/transforms-3/163c4aa3992c237c27f66fb415e63254/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/eng.muhammad/.gradle/caches/transforms-3/163c4aa3992c237c27f66fb415e63254/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+77        </provider>
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:36:9-45:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:37:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:38:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:39:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:40:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:41:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:42:13-44:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:43:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] /Users/eng.muhammad/.gradle/caches/transforms-3/1a3f21310b88de07c02b82444e5256c1/transformed/profileinstaller-1.1.0-beta01/AndroidManifest.xml:43:25-88
+87            </intent-filter>
+88        </receiver>
+89    </application>
+90
+91</manifest>
