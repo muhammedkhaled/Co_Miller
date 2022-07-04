@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.comiller.R;
@@ -29,12 +30,17 @@ public final class FragmentResultBinding implements ViewBinding {
   @NonNull
   public final TextView prog1TitleTv;
 
+  @NonNull
+  public final RecyclerView resultRv;
+
   private FragmentResultBinding(@NonNull ConstraintLayout rootView, @NonNull Guideline guideline1,
-      @NonNull Guideline guideline2, @NonNull TextView prog1TitleTv) {
+      @NonNull Guideline guideline2, @NonNull TextView prog1TitleTv,
+      @NonNull RecyclerView resultRv) {
     this.rootView = rootView;
     this.guideline1 = guideline1;
     this.guideline2 = guideline2;
     this.prog1TitleTv = prog1TitleTv;
+    this.resultRv = resultRv;
   }
 
   @Override
@@ -82,8 +88,14 @@ public final class FragmentResultBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.result_rv;
+      RecyclerView resultRv = ViewBindings.findChildViewById(rootView, id);
+      if (resultRv == null) {
+        break missingId;
+      }
+
       return new FragmentResultBinding((ConstraintLayout) rootView, guideline1, guideline2,
-          prog1TitleTv);
+          prog1TitleTv, resultRv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

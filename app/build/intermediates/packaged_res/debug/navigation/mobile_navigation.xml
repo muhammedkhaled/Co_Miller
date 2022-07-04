@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_prog1"
-        android:name="com.example.comiller.ui.prog1.Prog1Fragment"
+        android:name="com.example.comiller.ui.home.Prog1Fragment"
         android:label="@string/prog1"
         tools:layout="@layout/fragment_prog1" >
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/nav_prog2"
-        android:name="com.example.comiller.ui.prog2.Prog2Fragment"
+        android:name="com.example.comiller.ui.home.Prog2Fragment"
         android:label="@string/prog2"
         tools:layout="@layout/fragment_prog2" >
         <action
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/nav_prog3"
-        android:name="com.example.comiller.ui.prog3.Prog3Fragment"
+        android:name="com.example.comiller.ui.home.Prog3Fragment"
         android:label="@string/prog3"
         tools:layout="@layout/fragment_prog3" >
         <action
@@ -53,7 +53,27 @@
 
     <fragment
         android:id="@+id/prog1ResultFragment"
-        android:name="com.example.comiller.ui.ResultFragment"
+        android:name="com.example.comiller.ui.home.ResultFragment"
         android:label="Result Page"
-        tools:layout="@layout/fragment_result"/>
+        tools:layout="@layout/fragment_result">
+        <argument
+            android:name="list"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.comiller.ui.home.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_creators"
+        android:name="com.example.comiller.ui.home.CreatorsFragment"
+        android:label="creators"
+        tools:layout="@layout/fragment_creators" />
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.comiller.ui.home.AboutUsFragment"
+        android:label="about us"
+        tools:layout="@layout/fragment_about_us" />
+
 </navigation>

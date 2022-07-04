@@ -4,6 +4,7 @@ package com.example.comiller.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
@@ -22,9 +23,18 @@ public final class ItemBinding implements ViewBinding {
   @NonNull
   public final CardView cardV17;
 
-  private ItemBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardV17) {
+  @NonNull
+  public final TextView itemTitleTv;
+
+  @NonNull
+  public final TextView itemValueTv;
+
+  private ItemBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardV17,
+      @NonNull TextView itemTitleTv, @NonNull TextView itemValueTv) {
     this.rootView = rootView;
     this.cardV17 = cardV17;
+    this.itemTitleTv = itemTitleTv;
+    this.itemValueTv = itemValueTv;
   }
 
   @Override
@@ -60,7 +70,19 @@ public final class ItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemBinding((ConstraintLayout) rootView, cardV17);
+      id = R.id.itemTitle_tv;
+      TextView itemTitleTv = ViewBindings.findChildViewById(rootView, id);
+      if (itemTitleTv == null) {
+        break missingId;
+      }
+
+      id = R.id.itemValue_tv;
+      TextView itemValueTv = ViewBindings.findChildViewById(rootView, id);
+      if (itemValueTv == null) {
+        break missingId;
+      }
+
+      return new ItemBinding((ConstraintLayout) rootView, cardV17, itemTitleTv, itemValueTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

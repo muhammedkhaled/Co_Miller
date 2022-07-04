@@ -1,158 +1,194 @@
 [
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_wheat_2.jpg.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/wheat_2.jpg"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.comiller.app-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_sign_up.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_sign_up.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_item.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/item.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_prog1.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_prog1.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/xml_backup_rules.xml.flat",
-        "source": "com.example.comiller.app-main-73:/xml/backup_rules.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_prog2.jpg.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/prog2.jpg"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_fragment_prog3.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/fragment_prog3.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_result.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_result.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_prog1.jpg.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/prog1.jpg"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_flour.JPEG.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/flour.JPEG"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_ic_menu_slideshow.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/ic_menu_slideshow.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_login.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_login.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/menu_home.xml.flat",
-        "source": "com.example.comiller.app-main-73:/menu/home.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_content_home.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/content_home.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_menu_camera.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_menu_camera.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/navigation_registration_nav.xml.flat",
-        "source": "com.example.comiller.app-main-73:/navigation/registration_nav.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_menu_slideshow.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/menu_activity_main_drawer.xml.flat",
-        "source": "com.example.comiller.app-main-73:/menu/activity_main_drawer.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_activity_home.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/activity_home.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_ic_wheat_logo.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/ic_wheat_logo.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_app_bar_home.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/app_bar_home.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_wheat_logo.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_wheat_logo.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_activity_registration.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/activity_registration.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_item.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/item.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_fragment_prog2.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/fragment_prog2.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_prog3.jpg.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/prog3.jpg"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_wheat_1.jpg.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/wheat_1.jpg"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_right_arrow.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_right_arrow.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_fragment_result.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/fragment_result.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/menu_activity_main_drawer.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/menu/activity_main_drawer.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_ic_home.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/ic_home.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_arrow_outward_24.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_arrow_outward_24.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.comiller.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/font_reemkufi.ttf.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/font/reemkufi.ttf"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.comiller.app-main-73:/xml/data_extraction_rules.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_home.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_home.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_prog2.jpg.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/prog2.jpg"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/navigation_mobile_navigation.xml.flat",
-        "source": "com.example.comiller.app-main-73:/navigation/mobile_navigation.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_person_24.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_person_24.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_wheat_3.jpg.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/wheat_3.jpg"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_wheat_1.jpg.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/wheat_1.jpg"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_ic_right_arrow.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/ic_right_arrow.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/font_poppins.ttf.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/font/poppins.ttf"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_fragment_home.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/fragment_home.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_prog2.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_prog2.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_ic_prog_icon.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/ic_prog_icon.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_home.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_fragment_sign_up.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/fragment_sign_up.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_prog_icon.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_prog_icon.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_app_bar_home.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/app_bar_home.xml"
+        "merged": "com.example.comiller.app-merged_res-72:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.comiller.app-main-74:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_fragment_login.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/fragment_login.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_activity_registration.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/activity_registration.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_ic_menu_camera.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/ic_menu_camera.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/xml_backup_rules.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/font_poppins.ttf.flat",
-        "source": "com.example.comiller.app-main-73:/font/poppins.ttf"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/menu_home.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/menu/home.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_fragment_prog1.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/fragment_prog1.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_content_home.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/content_home.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_ic_menu_gallery.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/ic_menu_gallery.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_activity_home.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/activity_home.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_side_nav_bar.xml.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/side_nav_bar.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_wheat_2.jpg.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/wheat_2.jpg"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/font_reemkufi.ttf.flat",
-        "source": "com.example.comiller.app-main-73:/font/reemkufi.ttf"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_prog3.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_prog3.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/layout_nav_header_home.xml.flat",
-        "source": "com.example.comiller.app-main-73:/layout/nav_header_home.xml"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_side_nav_bar.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "com.example.comiller.app-merged_res-71:/drawable_prog3.jpg.flat",
-        "source": "com.example.comiller.app-main-73:/drawable/prog3.jpg"
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_settings_activity.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/settings_activity.xml"
+    },
+    {
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/navigation_registration_nav.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/navigation/registration_nav.xml"
+    },
+    {
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/xml_root_preferences.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/xml/root_preferences.xml"
+    },
+    {
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_wheat_3.jpg.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/wheat_3.jpg"
+    },
+    {
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_profile.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_prog1.jpg.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/prog1.jpg"
+    },
+    {
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_nav_header_home.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/nav_header_home.xml"
+    },
+    {
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_about_us.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_about_us.xml"
+    },
+    {
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/layout_fragment_creators.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_creators.xml"
+    },
+    {
+        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-merged_res-72:/drawable_ic_menu_gallery.xml.flat",
+        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/drawable/ic_menu_gallery.xml"
     }
 ]

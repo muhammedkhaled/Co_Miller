@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.SignUpFragment">
+    tools:context=".ui.auth.SignUpFragment">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -61,7 +61,7 @@
                 android:id="@+id/register_btn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/register"
+                android:text="Register"
                 android:textSize="20sp"
                 app:cornerRadius="4dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -76,6 +76,7 @@
                 android:layout_margin="4dp"
                 android:text=" عند انشاء حساب اقر بالموافقه بشروط التسجيل"
                 android:textColor="@color/ebony_clay"
+                android:visibility="invisible"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/regisVolPass_til" />
 
@@ -83,7 +84,7 @@
                 android:id="@+id/regisVolTitle_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/new_registration"
+                android:text="New ٍegistration"
                 android:textColor="@color/ebony_clay"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -100,6 +101,7 @@
                 android:textSize="14sp"
                 android:clickable="true"
                 android:focusable="true"
+                android:visibility="invisible"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -109,7 +111,7 @@
                 android:id="@+id/regisVolName_til"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/name"
+                android:hint="Name"
                 android:layout_marginTop="8dp"
                 style="@style/TextInputLayout.EditText.FilledBox"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -133,7 +135,7 @@
                 android:id="@+id/regisEmail_til"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/email"
+                android:hint="Email"
                 android:layout_marginTop="8dp"
                 style="@style/TextInputLayout.EditText.FilledBox"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -158,7 +160,7 @@
                 android:id="@+id/regisVolPhone_til"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/phone"
+                android:hint="Phone Number"
                 style="@style/TextInputLayout.EditText.FilledBox"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -182,7 +184,7 @@
                 android:id="@+id/regisVolPass_til"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/password"
+                android:hint="Password"
                 style="@style/TextInputLayout.EditText.FilledBox"
                 app:passwordToggleEnabled="true"
                 app:passwordToggleTint="@color/gray"

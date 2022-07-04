@@ -8,9 +8,7 @@
         android:id="@+id/cardV_17"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
+        android:layout_marginTop="4dp"
         android:shadowColor="@color/black"
         app:cardCornerRadius="4dp"
         app:cardElevation="2dp"
@@ -27,25 +25,33 @@
             android:weightSum="1">
 
             <TextView
+                android:id="@+id/itemTitle_tv"
                 style="@style/CardsTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="0dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp"
                 android:text="DON (ppm)"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="12sp"/>
 
             <TextView
+                style="@style/CardsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:text=": "
+                android:textStyle="bold"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/itemValue_tv"
                 style="@style/CardsTextView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0dp"
                 android:layout_weight="1"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp"
                 android:textAlignment="viewStart"
-                android:textSize="14sp" />
+                android:textSize="12sp" />
 
         </LinearLayout>
 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.AboutUsFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="350dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flour" />
+
+    <TextView
+        android:id="@+id/Instructions_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/shapeableImageView"
+        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Introduction"
+        android:textColor="@color/emerald_light"
+        android:textSize="18sp"
+        />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/shapeableImageView"
+        app:layout_constraintStart_toStartOf="@+id/shapeableImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Instructions_title"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/aboutUs_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Over the past decade, we have seen a continuous information revolution via the Internet and Mobile Apps. We have learned to harness the Internet for more efficient communications and Information everywhere and cellular technology gives us free movement at any time and we are on an internet connection.  These benefits have enabled us to achieve many aspects of our lives online. The system of mobile application and web are services supported by databases for the purposes of supporting and exchanging the results of analyzes and tests for all local and international wheat varieties traded within the Egyptian local market. The system consists of a home page that users of the system can view.
+Each user of a system has different pages or interface depending on the different functions he can use the system for.
+The system includes a database system to store all the information and data about the different wheat varieties, the results of the milling tests and the specifications of the resulting flour.
+This program can help us provide a range of new capabilities that enhance traditional methods for how to find the right variety of wheat for making a particular type of baked product, the ideal wetting method, and the appropriate milling diagram to obtain the highest extraction rate.
+ By applying the advantages of the Internet to search and display this system, it helps specialists, production managers and mill owners to protect milling establishments from loss or collapse.
+The basic idea of the system is to provide an automated tool for each research and quality specialist in the various laboratories in the public and private sector companies that are related to the handling, milling and storage of wheat to access the system and take advantage of the data and information previously added to the system and only allow accredited specialists to add Or modifying the databases within the system for continuous updating, whether by adding new items or modifying previously registered items.
+The overall goal of the project is to develop a highly specialized and scalable system supported by a website and a mobile application, this is considered as an assistant or guide for millers and owners of milling establishments, which enables them to continue smoothly to avoid the risks of irregular wheat supply in quantity and quality, by providing a wide range of wheat varieties and their characteristics and characteristics of the resulting flour and its optimal use in Manufacture of baked goods, pasta, cakes, and biscuits. "
+            android:textColor="@color/gray"
+            android:scrollbars="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:paddingBottom="4dp"/>
+
+    </ScrollView>
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

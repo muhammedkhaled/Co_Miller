@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
     <color name="Astral">#3080A3</color>
     <color name="black">#FF000000</color>
     <color name="ebony_clay">#23233C</color>
@@ -27,12 +35,17 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <string name="action_settings">Settings</string>
     <string name="app_name">Co Miller</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_title">Download incoming attachments</string>
     <string name="conditions_of_registration">شروط التسجيل</string>
     <string name="do_you_have_an_account">هل لديك حساب ؟ سجل</string>
     <string name="email">البريد الاكتروني</string>
     <string name="forget_password">هل لديك حساب ونسيت كلمه المرور؟</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="login">دخول</string>
+    <string name="messages_header">Messages</string>
     <string name="mobile_number">رقم الهاتف</string>
     <string name="name">الأسم</string>
     <string name="nav_header_desc">Navigation header</string>
@@ -47,9 +60,14 @@
     <string name="prog2">Program 2</string>
     <string name="prog3">Program 3</string>
     <string name="register">انشاء حساب</string>
+    <string name="reply_title">Default reply action</string>
     <string name="sign_in">تسجيل دخول</string>
+    <string name="signature_title">Your signature</string>
+    <string name="sync_header">Sync</string>
+    <string name="sync_title">Sync email periodically</string>
     <string name="title_activity_home">Home Screen</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
     <style name="CardsTextView" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">18sp</item>
         <item name="android:textStyle">normal</item>
@@ -59,6 +77,10 @@
         <item name="android:layout_marginEnd">4dp</item>
         <item name="android:layout_marginBottom">4dp</item>
         <item name="android:padding">2dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App20Percent" parent="">
+        <item name="cornerSize">20dp</item>
+        <item name="cornerFamily">rounded</item>
     </style>
     <style name="TextInputLayout.EditText.FilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="boxCornerRadiusBottomEnd">8dp</item>

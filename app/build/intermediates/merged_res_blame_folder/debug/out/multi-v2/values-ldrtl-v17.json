@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.comiller.app-mergeDebugResources-69:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.comiller.app-mergeDebugResources-70:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/home/muhammad/.gradle/caches/transforms-3/3e32f2b262d7f3790521fcf01c5b77be/transformed/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/Users/eng.muhammad/.gradle/caches/transforms-3/3e32f2b262d7f3790521fcf01c5b77be/transformed/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

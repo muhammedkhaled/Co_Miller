@@ -25,16 +25,20 @@
         android:theme="@style/Theme.CoMiller"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.comiller.ui.HomeActivity"
+            android:name="com.example.comiller.ui.home.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="com.example.comiller.ui.home.HomeActivity"
             android:exported="false"
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.CoMiller.NoActionBar" />
         <activity
-            android:name="com.example.comiller.ui.RegistrationActivity"
+            android:name="com.example.comiller.ui.auth.RegistrationActivity"
             android:exported="false"
             android:theme="@style/Theme.CoMiller" />
         <activity
-            android:name="com.example.comiller.ui.screenCompose.OnBoardingActivity"
+            android:name="com.example.comiller.ui.intro.OnBoardingActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CoMiller" >

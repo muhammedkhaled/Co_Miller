@@ -14,5 +14,5 @@ data class ResultData(
 @kotlinx.serialization.Serializable
 data class Data(
     val title: String?,
-    val w1: String?
+    val value: String?
 )

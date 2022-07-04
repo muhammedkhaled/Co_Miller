@@ -38,10 +38,9 @@ class AuthViewModel(private val repository: AuthRepository) : ViewModel() {
     suspend fun saveAccessTokens(
         accessToken: String,
         userEmail: String,
-        agentID: String,
         userName: String,
         userPhone: String
     ) {
-        repository.saveAccessTokens(accessToken, userEmail, agentID, userName, userPhone)
+        repository.saveAccessTokens(accessToken, userEmail, userName, userPhone)
     }
 }

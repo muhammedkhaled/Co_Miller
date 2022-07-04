@@ -10,6 +10,7 @@ import kotlinx.coroutines.launch
 import net.aqua_waterfliter.jo.confirmation.data.network.ResultWrapper
 
 class HomeViewModel (private val repository: HomeRepository) : ViewModel() {
+
     private val _programTest: MutableLiveData<ResultWrapper<ResultData>> = MutableLiveData()
     val programTest: LiveData<ResultWrapper<ResultData>>
         get() = _programTest

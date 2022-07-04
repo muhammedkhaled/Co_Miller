@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.HomeFragment"
+    android:background="#F3F4F9">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -16,14 +17,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.10" />
+            app:layout_constraintGuide_percent="0.07" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.90" />
+            app:layout_constraintGuide_percent="0.93" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/prog1_cardv"
@@ -32,10 +33,9 @@
             app:layout_constraintStart_toEndOf="@id/guideline1"
             app:layout_constraintEnd_toStartOf="@id/guideline2"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="28dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            android:paddingBottom="4dp">
+            app:cardElevation="8dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -55,19 +55,22 @@
                     android:id="@+id/prog1Title_tv"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
                     android:text="Unknown Wheat Program 1"
-                    app:layout_constraintTop_toBottomOf="@id/prog1_img"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginStart="4dp"/>
+                    app:layout_constraintEnd_toStartOf="@+id/floatingActionButton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/prog1_img" />
 
                 <TextView
                     android:id="@+id/prog1Body_tv"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="4dp"
+                    android:paddingBottom="8dp"
+                    android:paddingStart="4dp"
                     android:text="By Entering unknown wheat data to obtain a match for the unknown wheat variety."
                     android:textAlignment="viewStart"
                     android:textSize="14sp"
@@ -121,21 +124,24 @@
 
                 <TextView
                     android:id="@+id/prog2Title_tv"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
                     android:text="Milling Diagram Program"
-                    app:layout_constraintTop_toBottomOf="@id/prog2_img"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginStart="4dp"/>
+                    app:layout_constraintEnd_toEndOf="@+id/prog2Body_tv"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/prog2_img" />
 
                 <TextView
                     android:id="@+id/prog2Body_tv"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
+                    android:paddingBottom="8dp"
+                    android:paddingStart="4dp"
                     android:layout_margin="4dp"
                     android:textSize="14sp"
                     android:text="By Entering miller data to select the appropriate conditioning and milling diagram."
@@ -167,6 +173,7 @@
             app:layout_constraintStart_toEndOf="@id/guideline1"
             app:layout_constraintEnd_toStartOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/prog2_cardv"
+            app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="12dp"
             app:cardCornerRadius="8dp"
@@ -189,21 +196,24 @@
 
                 <TextView
                     android:id="@+id/prog3Title_tv"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
                     android:text="Appropriate Wheat program"
-                    app:layout_constraintTop_toBottomOf="@id/prog3_img"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginStart="4dp"/>
+                    app:layout_constraintEnd_toStartOf="@+id/floatingActionButton3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/prog3_img" />
 
                 <TextView
                     android:id="@+id/prog3Body_tv"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
+                    android:paddingBottom="8dp"
+                    android:paddingStart="4dp"
                     android:layout_margin="4dp"
                     android:textSize="14sp"
                     android:text="by Entering specific data to find the appropriate wheat variety."

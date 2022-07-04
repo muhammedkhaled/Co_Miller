@@ -24,7 +24,7 @@ class AuthRepository (
         api.register(register)
     }
 
-    suspend fun saveAccessTokens(accessToken: String, userEmail: String, agentID: String, userName: String, userPhone: String) {
-        preferences.saveAccessTokens(accessToken, userEmail, agentID, userName, userPhone)
+    suspend fun saveAccessTokens(accessToken: String, userEmail: String, userName: String, userPhone: String) {
+        preferences.saveAccessTokens(accessToken, userEmail, userName, userPhone)
     }
 }

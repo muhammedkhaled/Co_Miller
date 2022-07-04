@@ -24,13 +24,13 @@ public final class NavHeaderHomeBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
-  public final TextView textView;
+  public final TextView websiteTv;
 
   private NavHeaderHomeBinding(@NonNull LinearLayout rootView, @NonNull ImageView imageView,
-      @NonNull TextView textView) {
+      @NonNull TextView websiteTv) {
     this.rootView = rootView;
     this.imageView = imageView;
-    this.textView = textView;
+    this.websiteTv = websiteTv;
   }
 
   @Override
@@ -66,13 +66,13 @@ public final class NavHeaderHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.website_tv;
+      TextView websiteTv = ViewBindings.findChildViewById(rootView, id);
+      if (websiteTv == null) {
         break missingId;
       }
 
-      return new NavHeaderHomeBinding((LinearLayout) rootView, imageView, textView);
+      return new NavHeaderHomeBinding((LinearLayout) rootView, imageView, websiteTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
