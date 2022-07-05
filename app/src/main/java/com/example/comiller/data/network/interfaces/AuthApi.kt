@@ -18,4 +18,6 @@ interface AuthApi {
     suspend fun register(
         @Body register: Register
     ) : LoginResponse
+
+
 }

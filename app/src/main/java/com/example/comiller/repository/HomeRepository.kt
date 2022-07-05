@@ -10,7 +10,7 @@ import com.example.comiller.data.network.response.Program3
 
 class HomeRepository(
     private val api: HomeApi,
-    private val preferences: UserPreferences
+    private val preferences: UserPreferences? = null
 ): SafeApiCall {
 
     suspend fun program1(
@@ -29,5 +29,11 @@ class HomeRepository(
         program3: Program3
     ) = safeApiCall {
         api.program3(program3)
+    }
+
+    suspend fun removeAcc(
+        pass: String
+    ) = safeApiCall {
+        api.remove(pass)
     }
 }

@@ -21,4 +21,8 @@ interface HomeApi {
         @Body program3: Program3
     ) : ResultData
 
+    @POST("remove-account")
+    suspend fun remove(
+        @Body password: String
+    ) : LoginResponse
 }

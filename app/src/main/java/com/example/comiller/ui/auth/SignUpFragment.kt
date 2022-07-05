@@ -41,7 +41,7 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
             binding.registerBtn.enable(it !is ResultWrapper.Loading)
             when (it) {
                 is ResultWrapper.Success -> {
-                    binding.root.snackbar("account created successfully")
+                    binding.root.snackbar("Account created successfully")
                     requireActivity().startNewActivity(HomeActivity::class.java)
                     lifecycleScope.launch {
                         viewModel.saveAccessTokens(
@@ -68,19 +68,19 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
 
         when {
             name.isEmpty() -> {
-                binding.regisVolNameEt.error = "برجاء كتابه الآسم"
+                binding.regisVolNameEt.error = "please write your name"
                 binding.regisVolNameEt.requestFocus()
             }
             email.isEmpty() -> {
-                binding.regisEmailEt.error = "برجاء كتابه البريد الاكترونى"
+                binding.regisEmailEt.error = "please write your email"
                 binding.regisEmailEt.requestFocus()
             }
             phone.isEmpty() -> {
-                binding.regisVolPhoneEt.error = "برجاء كتابه رقم الهاتف"
+                binding.regisVolPhoneEt.error = "please write your phone"
                 binding.regisVolPhoneEt.requestFocus()
             }
             pass.isEmpty() -> {
-                binding.regisVolPassEt.error = "برجاء كتابه الباسورد"
+                binding.regisVolPassEt.error = "please write your password"
                 binding.regisVolPassEt.requestFocus()
             }
             else -> {

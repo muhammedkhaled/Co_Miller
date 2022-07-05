@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="280dp"
+    android:layout_height="320dp"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="38dp"
+            android:id="@+id/congratulation_card"
+            app:cardBackgroundColor="#F8F5F5"
+            app:cardElevation="0dp"
+            android:layout_gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/status"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:gravity="center"
+                    android:text="Delete your account ?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/deleteAccPassword_til"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintVertical_chainStyle="spread_inside"
+                    app:passwordToggleTint="@color/gray"
+                    app:passwordToggleEnabled="true"
+                    style="@style/TextInputLayout.EditText.FilledBox">
+
+                    <EditText
+                        android:id="@+id/deleteAccPassword_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/cancel_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="cancel"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@android:color/darker_gray"
+                    style="?attr/materialButtonOutlinedStyle" />
+
+                <Button
+                    android:id="@+id/ok_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OK"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@android:color/holo_red_light"
+                    style="?attr/materialButtonOutlinedStyle" />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ProgressBar
+            android:id="@+id/loadingProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/Astral"
+            android:layout_margin="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/forgotPass_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/forgotPass_tv"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal|center_vertical" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="1dp"
+            android:background="@drawable/circular_tick"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/ic_check"
+            />
+
+    </FrameLayout>
+</LinearLayout>

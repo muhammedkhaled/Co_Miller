@@ -27,7 +27,7 @@ fun View.enable(enabled: Boolean) {
     alpha = if (enabled) 1f else 0.5f
 }
 
-fun View.snackbar(message: String, root: View = this ,action: (() -> Unit)? = null, length: Int = Snackbar.LENGTH_LONG) {
+fun View.snackbar(message: String, root: View = this ,action: (() -> Unit)? = null , length: Int = Snackbar.LENGTH_LONG) {
     val snackbar = Snackbar.make(root, message, length)
     action?.let {
         snackbar.setAction("Retry") {
@@ -46,7 +46,7 @@ fun Fragment.handleApiError(
 ) {
     when {
         failure.isNetworkError == true -> requireView().snackbar(
-            "تأكد من حاله الاتصال بالانترنت",
+            "please check your internet connection",
             root = root,
             action = retry, length = length
         )
@@ -59,7 +59,7 @@ fun Fragment.handleApiError(
         }
 
         failure.errorCode == 401 -> {
-            Toast.makeText(requireContext(), "Wrong email or password... ", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), "Wrong email or password!!", Toast.LENGTH_SHORT).show()
         }
 
         failure.errorCode == 411 -> {
