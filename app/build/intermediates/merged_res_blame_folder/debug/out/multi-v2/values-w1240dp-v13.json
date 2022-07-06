@@ -4,7 +4,7 @@
             "outputFile": "com.example.comiller.app-mergeDebugResources-70:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/eng.muhammad/AndroidStudioProjects/Co_Miller/app/src/main/res/values-w1240dp/dimens.xml",
+                    "source": "/run/media/muhammad/5E86289421D28AA6/AndroidStudioProjects/CoMiller/app/src/main/res/values-w1240dp/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

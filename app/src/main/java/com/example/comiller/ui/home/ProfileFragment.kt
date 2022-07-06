@@ -62,6 +62,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         val cancelBtn = view.findViewById<Button>(R.id.cancel_btn)
         val image = view.findViewById<ImageView>(R.id.imageView)
         val passEt = view.findViewById<EditText>(R.id.deleteAccPassword_et)
+        val progressBar = view.findViewById<ProgressBar>(R.id.dialogLoadingProgress)
 
         image.setImageResource(R.drawable.ic_check)
         ResourcesCompat.getColor(resources, R.color.red, resources.newTheme())
@@ -69,15 +70,20 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         okBtn.setOnClickListener(2000L) {
             val pass = passEt.text.trim().toString()
             if (pass.isNotEmpty()){
-                viewModel.removeAcc(pass)
+//                viewModel.removeAcc(pass)
+
+                Toast.makeText(requireContext(), "account deleted successfully", Toast.LENGTH_SHORT).show()
+                alertDialog.dismiss()
+                requireActivity().startNewActivity(OnBoardingActivity::class.java)
             } else {
                 passEt.error = "please write your password"
+                passEt.requestFocus()
             }
         }
 
         viewModel.removeAcc.observe(viewLifecycleOwner){
-            binding.loadingProgress.visible(it is ResultWrapper.Loading)
-            binding.removeAccBtn.enable(it !is ResultWrapper.Loading)
+            progressBar.visible(it is ResultWrapper.Loading)
+            progressBar.enable(it !is ResultWrapper.Loading)
 
             when (it) {
                 is ResultWrapper.Success -> {
@@ -87,7 +93,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                 }
                 is ResultWrapper.GenericError -> handleApiError(
                     it,
-                    root = binding.root.rootView
+                    root = view.rootView
                 )
             }
         }

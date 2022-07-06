@@ -71,24 +71,11 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <Button
-                    android:id="@+id/cancel_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="cancel"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginBottom="4dp"
-                    android:textColor="@color/white"
-                    android:backgroundTint="@android:color/darker_gray"
-                    style="?attr/materialButtonOutlinedStyle" />
-
-                <Button
                     android:id="@+id/ok_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="OK"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginBottom="4dp"
@@ -96,6 +83,18 @@
                     android:backgroundTint="@android:color/holo_red_light"
                     style="?attr/materialButtonOutlinedStyle" />
 
+                <Button
+                    android:id="@+id/cancel_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="cancel"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@android:color/darker_gray"
+                    style="?attr/materialButtonOutlinedStyle" />
 
 
             </LinearLayout>
@@ -103,7 +102,7 @@
         </androidx.cardview.widget.CardView>
 
         <ProgressBar
-            android:id="@+id/loadingProgress"
+            android:id="@+id/dialogLoadingProgress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:indeterminate="true"
@@ -113,7 +112,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/forgotPass_tv"
-            android:visibility="visible"
+            android:visibility="gone"
             android:layout_gravity="center_horizontal|center_vertical" />
 
         <ImageView

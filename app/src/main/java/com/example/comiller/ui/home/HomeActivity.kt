@@ -40,7 +40,7 @@ class HomeActivity : AppCompatActivity() {
         val title: TextView = headerView.findViewById(com.example.comiller.R.id.website_tv)
 
         title.setOnClickListener(1000L){
-            val url = "http://miler.ekadeau.com"
+            val url = "http://miler.avantiegypt.com/"
             val intent = Intent(Intent.ACTION_VIEW);
             intent.data = Uri.parse(url)
             startActivity(intent)

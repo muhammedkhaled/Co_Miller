@@ -1,78 +1,86 @@
 [
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/settings_activity.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/settings_activity.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_creators.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_creators.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_result.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_result.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/nav_header_home.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/nav_header_home.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_prog1.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_prog1.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/dialog.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/dialog.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_about_us.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_about_us.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_prog1.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_prog1.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_prog3.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_prog3.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_profile.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_profile.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/dialog.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/dialog.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/app_bar_home.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/app_bar_home.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/activity_home.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/activity_home.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_home.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/nav_header_home.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/nav_header_home.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_login.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_login.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_profile.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_profile.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/activity_registration.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/activity_registration.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_sign_up.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_sign_up.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/activity_home.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/activity_home.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/activity_registration.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/activity_registration.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/settings_activity.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/settings_activity.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_creators.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_creators.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_about_us.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_about_us.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/item.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/item.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/content_home.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/content_home.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_home.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_home.xml"
+        "merged": "com.example.comiller.app-mergeDebugResources-71:/layout/fragment_prog2.xml",
+        "source": "com.example.comiller.app-main-74:/layout/fragment_prog2.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_login.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_login.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_result.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_result.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/app_bar_home.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/app_bar_home.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_prog2.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_prog2.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/content_home.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/content_home.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_sign_up.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_sign_up.xml"
     },
     {
-        "merged": "com.example.comiller.app-mergeDebugResources-71:/layout/dialog.xml",
-        "source": "com.example.comiller.app-main-74:/layout/dialog.xml"
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_prog3.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_prog3.xml"
     },
     {
-        "merged": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/fragment_prog2.xml",
-        "source": "/Users/eng.muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/fragment_prog2.xml"
+        "merged": "com.example.comiller.app-mergeDebugResources-71:/layout/fragment_prog3.xml",
+        "source": "com.example.comiller.app-main-74:/layout/fragment_prog3.xml"
+    },
+    {
+        "merged": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-mergeDebugResources-71:/layout/item.xml",
+        "source": "/home/muhammad/.gradle/daemon/7.3.3/com.example.comiller.app-main-74:/layout/item.xml"
+    },
+    {
+        "merged": "com.example.comiller.app-mergeDebugResources-71:/layout/fragment_prog1.xml",
+        "source": "com.example.comiller.app-main-74:/layout/fragment_prog1.xml"
     }
 ]

@@ -6,7 +6,7 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
-private const val BASE_URL = "http://miler.ekadeau.com/api/v1/"
+private const val BASE_URL = "http://miler.avantiegypt.com/api/v1/"
 
 class RemoteDataSource () {
 

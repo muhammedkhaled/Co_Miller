@@ -92,6 +92,7 @@ id conditions_checkbox
 id congratulation_card
 id deleteAccPassword_et
 id deleteAccPassword_til
+id dialogLoadingProgress
 id drawer_layout
 id editMyInfo_title_et
 id editName_img
